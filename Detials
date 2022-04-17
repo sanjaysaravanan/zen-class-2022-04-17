@@ -1,0 +1,41 @@
+
+
+Recap:
+
+  RWD ---> Responsive Web Design
+
+  Mobile First Approach: Keeping Mobile Screen Visisibility
+
+  Media Queries modify CSS based on resolution ( width of the screen )
+
+  Display: flex / Flexbox concept
+
+  Bootstrap CSS Usage:
+    Boostrap extensively built CSS classes which is used to make a site responsive,
+    mobile first and inbuilt starter components/designs
+
+
+Today:
+
+  Bootsrap Breakpoints:
+    Predefined set of infix( key that used in-between )/keys which indicates a range of resolution which goes as the width of certain physical display devices.
+
+  Bootstrap:
+    Containers ---> 
+    Columns Layout ---> A layout that divides the 100% of the resolution into 12 Columns
+        Each Col occupies -> 100/12 --> 8.33333%
+        Each col-3 occupies -> 100/12 * 3 --> 25% 
+        Each col-4 occupies -> 100/12 * 4 --> 33.33333%
+        Each col-6 occupies -> 100/12 * 6 --> 50%
+        Each col-12 occupies -> 100/12 * 12 --> 100%
+
+    Columns Layout with Breakpoints: Columns layout with Breakpoints on resolution 
+
+    Grid ---> 
+      container>row>columns
+
+    Grid System that allows to divided the strict twelve columns layout
+    Overflow of will create new row with the last column that made overflow
+
+  
+
